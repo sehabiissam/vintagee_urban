@@ -3280,9 +3280,9 @@ if (Firewall.isAdmin()) {
           <div class="product-view-qty">
             <label class="product-view-qty-label" for="pv-qty">Quantity</label>
             <div class="product-qty-controls">
-              <button class="qty-btn qty-minus" id="pv-qty-minus">—</button>
+              <button class="qty-btn qty-minus" id="pv-qty-minus"><i class="fa-solid fa-minus"></i></button>
               <div class="qty-display" id="pv-qty-display">1</div>
-              <button class="qty-btn qty-plus" id="pv-qty-plus">+</button>
+              <button class="qty-btn qty-plus" id="pv-qty-plus"><i class="fa-solid fa-plus"></i></button>
             </div>
           </div>
           <div class="product-view-actions">
