@@ -2958,12 +2958,15 @@ body::before { display: none; }
 }
 
 @media (max-width: 992px) {
+ .shop-sidebar { display: none; }
+
   .product-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .wishlist-grid { grid-template-columns: repeat(2, 1fr); }
 
   .shop-main-grid { grid-template-columns: 1fr; }
 
   .shop-sidebar .sidebar-toggle-wrapper { display: block; margin-bottom: 0.75rem; }
+
   
   .product-filter-bar {
     position: fixed;
