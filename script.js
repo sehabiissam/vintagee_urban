@@ -3271,7 +3271,7 @@ if (Firewall.isAdmin()) {
           <h1 class="product-view-name">${product.name}</h1>
           <div>
             <div class="product-view-price">${priceStr} DZD</div>
-            <div class="product-view-price-label">Algerian Dinar â€” Tax Inclusive</div>
+            <div class="product-view-price-label">Algerian Dinar — Tax Inclusive</div>
           </div>
           <div class="product-view-description">
             <div class="product-view-description-label">About This Item</div>
@@ -3280,7 +3280,7 @@ if (Firewall.isAdmin()) {
           <div class="product-view-qty">
             <label class="product-view-qty-label" for="pv-qty">Quantity</label>
             <div class="product-qty-controls">
-              <button class="qty-btn qty-minus" id="pv-qty-minus">-</button>
+              <button class="qty-btn qty-minus" id="pv-qty-minus">—</button>
               <div class="qty-display" id="pv-qty-display">1</div>
               <button class="qty-btn qty-plus" id="pv-qty-plus">+</button>
             </div>
